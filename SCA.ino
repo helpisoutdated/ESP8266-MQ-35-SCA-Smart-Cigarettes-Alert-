@@ -14,10 +14,10 @@ float R0 = 0.0;
 float ppm = 0.0;
 
 // TELEGRAM 
-const char* ssid = "OPPO A96";
-const char* password = "11243456";
-#define BOT_TOKEN "7361158186:AAH3z-vyUveUkSDX4shA9EFKGaoeOaX6Kdk"
-String CHAT_ID = "-1002593484161";
+const char* ssid = "-------";
+const char* password = "-------";
+#define BOT_TOKEN "-----------------------"
+String CHAT_ID = "-------------";
 
 WiFiClientSecure client;
 UniversalTelegramBot bot(BOT_TOKEN, client);
