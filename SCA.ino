@@ -17,10 +17,10 @@ float ppm = 0.0;
 bool systemOn = true;
 
 // WIFI & TELEGRAM SETUP
-const char* ssid = "OPPO A96";
-const char* password = "11243456";
-#define BOT_TOKEN "7361158186:AAH3z-vyUveUkSDX4shA9EFKGaoeOaX6Kdk"
-String CHAT_ID = "-1002593484161";
+const char* ssid = "-------------";
+const char* password = "-------------";
+#define BOT_TOKEN "-----------------"
+String CHAT_ID = "-------------------";
 
 WiFiClientSecure client;
 UniversalTelegramBot bot(BOT_TOKEN, client);
@@ -37,8 +37,8 @@ const long gmtOffset_sec = 7*3600;
 const int daylightOffset_sec = 0;
 
 // LINK GOOGLE SHEETS
-String sheetsURL = "https://script.google.com/macros/s/AKfycbzwfKl8hPDru_L9Tc2QYAeW7fb6qPWGkXdMJ6NTC9MyKfzMns80dZEzR38E6_5_rgu8NQ/exec";
-String sheetsreal = "https://docs.google.com/spreadsheets/d/1jKTZyTlr5MuXBRWTc_frCR5WE9UwRQ2ByhXBZqoDKTg/edit?hl=id&gid=381684215#gid=381684215";
+String sheetsURL = "----------------------------";
+String sheetsreal = "--------------------------;
 String lokasi = "KAMAR%20MANDI%202"; 
 
 // FUNGSI SENSOR
